@@ -23,7 +23,7 @@ function categorySelected(name) {
             <nav className='nav'>
                 <ul className='flex-row'>
                     <li className='mx-2'>
-                        <a href="/" className="site-title">
+                        <a data-testid="link" href="/" className="site-title">
                             FEC
                         </a>
                     </li>
